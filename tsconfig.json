@@ -9,14 +9,14 @@
     "experimentalDecorators": true,
     "allowJs": false,
     "alwaysStrict": true,
-    "module": "commonjs",
+    "module": "es2022",
     "moduleResolution": "node",
     "noEmitOnError": false,
     "noImplicitThis": true,
     "noImplicitAny": true,
     "outDir": "./lib",
     "sourceMap": true,
-    "target": "ES2019",
+    "target": "ES2022",
     "typeRoots": [
       "node_modules/@types",
       "types"
@@ -26,8 +26,8 @@
     "resolveJsonModule": true,
     "downlevelIteration": true,
     "lib": [
-      "es5",
-      "es6"
+      "es2022",
+      "dom"
     ]
   },
   "include": [
